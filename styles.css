@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("./pattern.png");
+}
+
+.main-clock{
+    background-color: #ccc;
+    width: 400px;
+    margin: 100px auto;
+    height: 175px;
+    position: relative;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.badge-c{
+    background: #e66357;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 66px;
+    position: absolute;
+    top:-15px;;
+    left:41%;
+    border-radius: 4px;
+}
+
+.clock{
+    background: #ebebeb;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 25px;
+    font-family: Orbitron;
+    border-radius: 4px;
+
+}
+
+.main-timer{
+    background-color: #ccc;
+    width: 400px;
+    margin: 100px auto;
+    height: 175px;
+    position: relative;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.badge-t{
+    background: #e66357;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 64px;
+    position: absolute;
+    top:-15px;;
+    left:42.5%;
+    border-radius: 4px;
+}
+.controls{
+    position: absolute;
+    top: 83%;
+    left: 33%;
+}
+
+#start{
+    padding: 5px;
+    background: green;
+    color: white;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+
+#start:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#stop:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+#reset:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#stop{
+    padding: 5px;
+    background: red;
+    color: white;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+#reset{
+    padding: 5px;
+    background: orange;
+    color: white;
+    border-radius: 4px;
+    font-family: sans-serif;
+}
+.timer{
+    background: #ebebeb;
+    text-align: right;
+    font-size: 45px;
+    height: 90%;
+    padding: 20px 33px;;
+    font-family: Orbitron;
+    border-radius: 4px; 
+}
